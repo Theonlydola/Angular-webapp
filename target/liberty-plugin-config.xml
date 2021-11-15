@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/Users/mohamedadel/demo/target/liberty/wlp</installDirectory>
+    <serverDirectory>/Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer</serverDirectory>
+    <userDirectory>/Users/mohamedadel/demo/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer</serverOutputDirectory>
+    <serverName>defaultServer</serverName>
+    <configDirectory>/Users/mohamedadel/demo/src/main/liberty/config</configDirectory>
+    <appsDirectory>dropins</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>demo.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>21.0.0.11</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>/Users/mohamedadel/.m2/repository/io/openliberty/openliberty-kernel/21.0.0.11/openliberty-kernel-21.0.0.11.zip</assemblyArchive>
+    <assemblyInstallDirectory>/Users/mohamedadel/demo/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+</liberty-plugin-config>

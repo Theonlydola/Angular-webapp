@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      3  11/15/21, 14:32:50:143 EET  11/15/21, 14:32:53:886 EET java.lang.Error com.ibm.ws.webcontainer.servlet.ServletWrapper.init 181
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_14.32.50.0.log
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_14.32.51.0.log
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_14.32.53.0.log
+     1      1  11/15/21, 14:32:57:164 EET  11/15/21, 14:32:57:164 EET java.lang.NoClassDefFoundError com.ibm.ws.webcontainer.servlet.ServletWrapper.init 181
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_14.32.57.0.log
+------+------+---------------------------+---------------------------+---------------------------

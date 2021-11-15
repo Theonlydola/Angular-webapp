@@ -22,6 +22,10 @@
     <refresh>false</refresh>
     <installAppsConfigDropins>/Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
+    <projectCompileDependency>javax:javaee-api:8.0.1</projectCompileDependency>
+    <projectCompileDependency>com.sun.mail:javax.mail:1.6.2</projectCompileDependency>
+    <projectCompileDependency>javax.activation:activation:1.1</projectCompileDependency>
+    <projectCompileDependency>com.googlecode.json-simple:json-simple:1.1.1</projectCompileDependency>
     <projectCompileDependency>org.glassfish.jersey.containers:jersey-container-servlet-core:2.27</projectCompileDependency>
     <projectCompileDependency>org.glassfish.hk2.external:javax.inject:2.5.0-b42</projectCompileDependency>
     <projectCompileDependency>org.glassfish.jersey.core:jersey-common:2.27</projectCompileDependency>

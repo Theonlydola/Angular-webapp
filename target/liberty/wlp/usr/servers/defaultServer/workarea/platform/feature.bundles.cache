@@ -1,4 +1,4 @@
-Cache-WriteTime=1636898524857;17
+Cache-WriteTime=1636978292605;17
 com.ibm.ws.javaee.version/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.javaee.version_1.0.58.jar;12@PARALLEL
 com.ibm.websphere.javaee.servlet.3.1/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/dev/api/spec/com.ibm.websphere.javaee.servlet.3.1_1.0.58.jar;12@PARALLEL
 io.openliberty.el.internal.cdi/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/io.openliberty.el.internal.cdi_1.0.58.jar;12@PARALLEL
@@ -60,3 +60,7 @@ com.ibm.ws.jsp.2.3/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/w
 com.ibm.ws.jsp/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.jsp_1.0.58.jar;12@PARALLEL
 com.ibm.ws.jsp.jstl.facade/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.jsp.jstl.facade_1.0.58.jar;11@PARALLEL
 com.ibm.ws.org.apache.taglibs.standard/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.org.apache.taglibs.standard_1.0.58.jar;0@PARALLEL
+com.ibm.websphere.javaee.activation.1.1/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/dev/api/spec/com.ibm.websphere.javaee.activation.1.1_1.0.58.jar;12@PARALLEL
+com.ibm.websphere.javaee.jaxb.2.2/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/dev/api/spec/com.ibm.websphere.javaee.jaxb.2.2_1.0.58.jar;12@PARALLEL
+com.ibm.ws.org.apache.geronimo.osgi.registry.1.1/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.org.apache.geronimo.osgi.registry.1.1_1.0.58.jar;12@PARALLEL
+com.ibm.ws.jaxb.tools.2.2.10/[1.0.0,1.0.200)=file:/Users/mohamedadel/demo/target/liberty/wlp/lib/com.ibm.ws.jaxb.tools.2.2.10_1.0.58.jar;12@PARALLEL

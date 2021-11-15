@@ -10,6 +10,7 @@ public class App extends Application {
     public Set<Class<?>> getClasses() {
         Set<Class<?>> classes = new HashSet<>();
         classes.add(service.class);
+        classes.add(utility.class);
         return classes;
     }
 }

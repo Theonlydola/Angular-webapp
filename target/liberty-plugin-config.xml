@@ -22,4 +22,32 @@
     <refresh>false</refresh>
     <installAppsConfigDropins>/Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
+    <projectCompileDependency>org.glassfish.jersey.containers:jersey-container-servlet-core:2.27</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2.external:javax.inject:2.5.0-b42</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.core:jersey-common:2.27</projectCompileDependency>
+    <projectCompileDependency>javax.annotation:javax.annotation-api:1.2</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2:osgi-resource-locator:1.0.1</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.core:jersey-server:2.27</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.media:jersey-media-jaxb:2.27</projectCompileDependency>
+    <projectCompileDependency>javax.validation:validation-api:1.1.0.Final</projectCompileDependency>
+    <projectCompileDependency>javax.ws.rs:javax.ws.rs-api:2.1</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.containers:jersey-container-servlet:2.27</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.core:jersey-client:2.27</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.media:jersey-media-multipart:2.27</projectCompileDependency>
+    <projectCompileDependency>org.jvnet.mimepull:mimepull:1.9.6</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.media:jersey-media-json-jackson:2.25</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.ext:jersey-entity-filtering:2.25</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-core:2.8.4</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-databind:2.8.4</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4</projectCompileDependency>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-annotations:2.8.4</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.jersey.inject:jersey-hk2:2.27</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2:hk2-locator:2.5.0-b42</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b42</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2:hk2-api:2.5.0-b42</projectCompileDependency>
+    <projectCompileDependency>javax.inject:javax.inject:1</projectCompileDependency>
+    <projectCompileDependency>org.glassfish.hk2:hk2-utils:2.5.0-b42</projectCompileDependency>
+    <projectCompileDependency>org.javassist:javassist:3.22.0-CR2</projectCompileDependency>
 </liberty-plugin-config>

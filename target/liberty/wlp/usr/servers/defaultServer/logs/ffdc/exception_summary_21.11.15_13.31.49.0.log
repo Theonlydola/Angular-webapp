@@ -1,0 +1,7 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2  11/15/21, 13:31:49:068 EET  11/15/21, 13:31:50:794 EET java.lang.Error com.ibm.ws.webcontainer.servlet.ServletWrapper.init 181
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_13.31.49.0.log
+                                                                            - /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.11.15_13.31.50.0.log
+------+------+---------------------------+---------------------------+---------------------------

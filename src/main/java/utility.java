@@ -7,6 +7,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import org.json.simple.JSONArray;
@@ -51,6 +52,45 @@ tickets_sub.add(tickets.get(i).toString());
  return Response.ok(tickets_sub).build();
 
 }
+
+@GET
+@Path("getticket")
+@SuppressWarnings("unchecked")
+@Produces(MediaType.APPLICATION_JSON)
+public Response getJSONdata( @QueryParam("ticketNum") String ticketNum){
+
+System.out.println("ticket");
+JSONArray tickets =null;
+JSONParser jsonParser = new JSONParser();
+JSONObject output = new JSONObject();
+
+ try (FileReader reader = new FileReader("/Users/mohamedadel/demo/tickets.json"))
+{
+//Read JSON file
+ Object obj = jsonParser.parse(reader);
+
+      tickets = (JSONArray) obj;
+      
+      for (int i=0;i<tickets.size()-1;i++){ 
+       
+        JSONObject ticket = (JSONObject) tickets.get(i);
+        if ( ticket.get("TICKET_NUMBER").equals(ticketNum)){
+          output = ticket;
+        }
+      } 
+     
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (org.json.simple.parser.ParseException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    return Response.ok(output).build();
+
+  }
+
 
 @POST
 @Path("get2")

@@ -1,18 +1,21 @@
 
 <h1 class="title" > {{headertitle}}</h1>
-<mat-card  *ngFor="let machine of machines; index as indexOfelement;" class="machine-card">
-    <mat-card-header>
-      <mat-card-title>Machine {{indexOfelement+1}}</mat-card-title>
-      <mat-card-subtitle class="machine-desc">{{machine.DESCRIPTION | lowercase}}</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-        <ul>
-            <li>Ticket Number: {{machine.TICKET_NUMBER}}</li>
-            <li>Machine Type: {{machine.MACHINE_TYPE}}</li>
-            <li>Machine Serial: {{machine.MACHINE_SERIAL}}</li>
-            <li >Open Date: {{machine.OTMS | date}}</li> 
-            <li>Subject: {{machine.SUBJECT}}</li>
-        </ul>
-    </mat-card-content>
-  </mat-card>
+<div class="grid-container">
+<mat-accordion *ngFor="let machine of machines; index as indexOfelement;" class= "index % 2 === 0? grid-item : grid-item2"  class="bordered">
+  <mat-expansion-panel class= "machine-card" (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Machine {{indexOfelement+1}}
+      </mat-panel-title>
+      <mat-panel-description>
+       {{machine.TICKET_NUMBER}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p class="machine-desc">{{machine.DESCRIPTION}}</p>
+    <button [routerLink]="['machine', machine.TICKET_NUMBER]" id="button" mat-flat-button color="primary">More Details</button>
+  </mat-expansion-panel>
+</mat-accordion>
+</div>
+
   

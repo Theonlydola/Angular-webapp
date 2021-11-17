@@ -1,0 +1,13 @@
+
+arg0=defaultServer
+arg1=--pid=
+arg2=--status
+exit=1
+
+                 Java home:  /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+              Install root:  /Users/mohamedadel/demo/target/liberty/wlp/
+          System libraries:  /Users/mohamedadel/demo/target/liberty/wlp/lib/
+                 User root:  /Users/mohamedadel/demo/target/liberty/wlp/usr/
+                    Config:  /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/
+                    Output:  /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/
+

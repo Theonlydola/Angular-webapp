@@ -6,7 +6,13 @@ import { MachineComponent } from './machine/machine.component';
 import { MachineDetailsComponent } from './machine-details/machine-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card'
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatAccordionHarness} from '@angular/material/expansion/testing';
+import {MatButtonModule} from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { Machine } from "./machine/machine-model";
+import { machineService } from './machineService';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +24,12 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatExpansionModule,
     HttpClientModule,
+    MatButtonModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [machineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,14 @@
+.machine-card {
+    width: 50%;
+    height: auto;
+    background-color: #EEEEEE;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.title{
+    margin-left: 1em;
+    margin-top: 1em;
+}

@@ -1,0 +1,71 @@
+********************************************************************************
+product = Open Liberty 21.0.0.11 (wlp-1.0.58.cl211120211019-1900)
+wlp.install.dir = /Users/mohamedadel/demo/target/liberty/wlp/
+java.home = /usr/local/Cellar/openjdk/17.0.1/libexec/openjdk.jdk/Contents/Home
+java.version = 17.0.1
+java.runtime = OpenJDK Runtime Environment (17.0.1+0)
+os = Mac OS X (12.0.1; x86_64) (en_EG)
+process = 46530@Mohameds-MacBook-Pro.local
+********************************************************************************
+[11/16/21, 17:34:53:954 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[11/16/21, 17:34:54:758 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 71.11 seconds
+[11/16/21, 17:34:54:768 EET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[11/16/21, 17:34:55:106 EET] 0000001b com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[11/16/21, 17:34:55:417 EET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[11/16/21, 17:34:55:418 EET] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/dropins/demo.war.xml location.
+[11/16/21, 17:34:55:941 EET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[11/16/21, 17:34:55:957 EET] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Archetype Created Web Application.
+[11/16/21, 17:34:55:962 EET] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Archetype Created Web Application has been bound to default_host.
+[11/16/21, 17:34:55:963 EET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/demo/
+[11/16/21, 17:34:56:013 EET] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/demo
+[11/16/21, 17:34:56:022 EET] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/16/21, 17:34:56:026 EET] 00000026 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/16/21, 17:34:56:520 EET] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application demo started in 1.103 seconds.
+[11/16/21, 17:34:56:541 EET] 00000024 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[11/16/21, 17:34:56:548 EET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [el-3.0, jaxb-2.2, jsp-2.3, servlet-3.1].
+[11/16/21, 17:34:56:548 EET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 1.791 seconds.
+[11/16/21, 17:34:56:549 EET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 72.902 seconds.
+[11/16/21, 17:34:57:492 EET] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/demo] [App]: Initialization successful.
+[11/16/21, 17:36:40:080 EET] 00000026 com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /get100
+[11/17/21, 5:37:22:204 EET] 000001aa com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/demo/
+[11/17/21, 5:37:22:288 EET] 000001aa com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo] [/demo] [App]: Destroy successful.
+[11/17/21, 5:37:22:327 EET] 000001aa com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[11/17/21, 5:37:22:338 EET] 000001aa com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[11/17/21, 5:37:22:340 EET] 000001aa bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/dropins/demo.war.xml location.
+[11/17/21, 5:37:22:805 EET] 000001aa com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Archetype Created Web Application.
+[11/17/21, 5:37:22:806 EET] 000001aa com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Archetype Created Web Application has been bound to default_host.
+[11/17/21, 5:37:22:806 EET] 000001aa com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/demo/
+[11/17/21, 5:37:22:807 EET] 000001b4 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/demo
+[11/17/21, 5:37:22:808 EET] 000001b4 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/17/21, 5:37:22:956 EET] 000001a7 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:37:22:975 EET] 000001b2 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:37:23:192 EET] 000001b4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 0.854 seconds.
+[11/17/21, 5:37:24:739 EET] 000001b4 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/demo] [App]: Initialization successful.
+[11/17/21, 5:37:25:524 EET] 00000189 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/demo/
+[11/17/21, 5:37:25:533 EET] 00000189 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo] [/demo] [App]: Destroy successful.
+[11/17/21, 5:37:25:536 EET] 00000189 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[11/17/21, 5:37:25:542 EET] 00000189 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[11/17/21, 5:37:25:542 EET] 00000189 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/dropins/demo.war.xml location.
+[11/17/21, 5:37:25:564 EET] 000001aa com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:37:25:695 EET] 00000189 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Archetype Created Web Application.
+[11/17/21, 5:37:25:695 EET] 00000189 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Archetype Created Web Application has been bound to default_host.
+[11/17/21, 5:37:25:695 EET] 00000189 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/demo/
+[11/17/21, 5:37:25:696 EET] 00000189 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/demo
+[11/17/21, 5:37:25:697 EET] 00000189 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/17/21, 5:37:25:728 EET] 000001b2 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:37:25:880 EET] 00000189 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 0.338 seconds.
+[11/17/21, 5:37:26:715 EET] 00000189 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/demo] [App]: Initialization successful.
+[11/17/21, 5:51:27:320 EET] 000001bc com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/demo/
+[11/17/21, 5:51:27:339 EET] 000001bc com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo] [/demo] [App]: Destroy successful.
+[11/17/21, 5:51:27:347 EET] 000001bc com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[11/17/21, 5:51:27:359 EET] 000001bc com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[11/17/21, 5:51:27:360 EET] 000001bc bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/dropins/demo.war.xml location.
+[11/17/21, 5:51:27:399 EET] 000001b2 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:51:27:542 EET] 000001bc com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Archetype Created Web Application.
+[11/17/21, 5:51:27:542 EET] 000001bc com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Archetype Created Web Application has been bound to default_host.
+[11/17/21, 5:51:27:543 EET] 000001bc com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/demo/
+[11/17/21, 5:51:27:545 EET] 000001bd com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/demo
+[11/17/21, 5:51:27:545 EET] 000001bd com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/17/21, 5:51:27:570 EET] 000001c2 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/mohamedadel/demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[11/17/21, 5:51:27:886 EET] 000001bd com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 0.527 seconds.
+[11/17/21, 5:51:28:683 EET] 000001bd com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/demo] [App]: Initialization successful.

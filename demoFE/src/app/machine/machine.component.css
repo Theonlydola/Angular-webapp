@@ -1,18 +1,77 @@
 .machine-card {
-    width: 550px;
-    height:auto;
+    width: 92%;
+    height: 100%;
     background-color: #EEEEEE;
-    margin-left: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
     margin-bottom: 1em;
+    margin-top: 1em;
     font-family: 'Courier New', Courier, monospace;
-
+    font-size: large;
   }
 
   .title{
     margin-left: 1em;
     margin-top: 1em;
   }
+
 .machine-desc {
   color: grey;
 }
-  
+
+.mat-form-field + .mat-form-field {
+  width: 30%;
+  margin-left: 8px;
+} 
+
+mat-panel-description {
+  height: 50px;
+  margin-top: 3em;
+}
+
+mat-panel-title {
+  margin-top: 3em;
+}
+
+mat-accordion {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.grid-container {
+  width:100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0px;
+  grid-row-gap: -20em;
+}
+
+.grid-item{
+  grid-column: 1;
+}
+
+.grid-item2 {
+  grid-column: 2;
+}
+
+mat-flat-button {
+  background-color: aqua;
+  width: auto;
+}
+
+#button{
+  background-color: #4050B5;
+  color: white;
+}
+
+#button:focus {     
+  background-color:#5761b1;    
+}
+
+input{
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 2em;
+  margin-left: 2em;
+  height: 2em;
+  border-width: 0;
+}
